@@ -7,7 +7,6 @@ from mazelib.transmute.CuldeSacFiller import CuldeSacFiller
 from mazelib.transmute.DeadEndFiller import DeadEndFiller
 from mazelib.transmute.Perturbation import Perturbation
 
-
 class SolversTest(unittest.TestCase):
     def _example_cul_de_sac_maze(self):
         """helper method to generate a super-simpl little maze with a loop in it:
